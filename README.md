@@ -3,6 +3,8 @@
 This directory contains the code of the PARTIME library presented in the manuscript ["PARTIME: Scalable and Parallel Processing Over
 Time with Deep Neural Networks"](https://ieeexplore.ieee.org/document/10068971).
 
+[Technical report](https://arxiv.org/abs/2210.09147)
+
 ## Requirements
 The main requirements for this library are
  - PyTorch >= 11 with CUDA >= 11.3
