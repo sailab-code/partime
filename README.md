@@ -1,7 +1,7 @@
 # PARTIME: Scalable and Parallel Processing Over Time with Deep Neural Networks
 
-This directory contains the code of the PARTIME library presented in the manuscript _"PARTIME: Scalable and Parallel Processing Over
-Time with Deep Neural Networks"_.
+This directory contains the code of the PARTIME library presented in the manuscript ["PARTIME: Scalable and Parallel Processing Over
+Time with Deep Neural Networks"](https://ieeexplore.ieee.org/document/10068971).
 
 ## Requirements
 The main requirements for this library are
@@ -25,3 +25,8 @@ The directory contains two subdirectories and 5 python files that help replicate
  - experimentB.py: contains the code to replicate V.B - Launch with `python ./experimentB.py`
  - experimentC.py: contains the code to replicate V.C - Launch with `python ./experimentC.py`
  - experimentD.py: contains the code to replicate V.D - Launch with `python ./experimentD.py --lr=<lr> --batch_size=<batch_size> --stages=<n_stages> --max_epochs=<n_epochs>`. The script contains the code to log data with wandb. If wandb is not to be used, comment the import and set `DEBUG=True` at line 27
+
+Acknowledgement
+---------------
+
+This software was developed in the context of some of the activities of the PRIN 2017 project RexLearn, funded by the Italian Ministry of Education, University and Research (grant no. 2017TWNMH2).This software was developed in the context of some of the activities of the PRIN 2017 project RexLearn, funded by the Italian Ministry of Education, University and Research (grant no. 2017TWNMH2).
